@@ -1,12 +1,4 @@
-function MainContent(){
-    return(
-        <h1>i'm learning react</h1>
-    )
-}
-
-ReactDOM.render(
-    <div>
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+const h1=document.createElement("h1")
+h1.textContent="this is react"
+h1.className="react"
+document.getElementById("root").append(h1)
