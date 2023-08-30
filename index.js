@@ -1,4 +1,12 @@
-ReactDOM.render(<ul><li>thing 1</li>
-                    <li>thing 2</li>
-                </ul>
-,document.getElementById("root"))
+function MainContent(){
+    return(
+        <h1>i'm learning react</h1>
+    )
+}
+
+ReactDOM.render(
+    <div>
+        <MainContent />
+    </div>,
+    document.getElementById("root")
+)
