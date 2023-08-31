@@ -1,4 +1,12 @@
-const h1=document.createElement("h1")
-h1.textContent="this is react"
-h1.className="react"
-document.getElementById("root").append(h1)
+const navbar=(
+    <nav>
+    <h1>navbar</h1>
+    <ul>
+        <li>menu</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar,document.getElementById("root"))
