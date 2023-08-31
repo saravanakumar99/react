@@ -1,15 +1,14 @@
-import React from "react";
-import ReactDOM from "react";
-const navbar=(
-    <nav>
-    <h1>navbar</h1>
-    <ul>
-        <li>menu</li>
-        <li>about</li>
-        <li>contact</li>
-    </ul>
-    </nav>
+const page=(
+    <div>
+        <h1>my awesome website in react</h1>
+        <h3>i love react</h3>
+        <ol>
+            <li>composable</li>
+            <li>declarative</li>
+            <li>hirable skill</li>
+        </ol>
+        
+    </div>
 )
-root.append(navbar)
-const root=ReactDOM.createRoot(document.getElementById("root"))
-ReactDOM.render(navbar,document.getElementById("root"))
+ReactDOM.render(page,document.getElementById("root"))
+document.getElementById("root").append(JSON.stringify(page))
