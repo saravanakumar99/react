@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react";
 const navbar=(
     <nav>
     <h1>navbar</h1>
@@ -8,5 +10,6 @@ const navbar=(
     </ul>
     </nav>
 )
-
+root.append(navbar)
+const root=ReactDOM.createRoot(document.getElementById("root"))
 ReactDOM.render(navbar,document.getElementById("root"))
