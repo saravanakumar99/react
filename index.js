@@ -1,19 +1,5 @@
-function Header(){
-    return(
-        <header>
-                <nav>
-                    <img src="pngegg (2).png" width="40px" />
-                </nav>
-        </header>
-    )
-}
-function Footer(){
-    return(
-        <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
-        </footer>
-    )
-}
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Page(){
     return(
