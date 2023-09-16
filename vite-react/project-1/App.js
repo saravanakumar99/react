@@ -1,85 +1,29 @@
-import React from "react";
+import React from "react"
+import Joke from "./Joke"
 
-function App() {
-  return (
-    <div className="contacts">
-      <Contact
-        img="./images/mr-whiskerson.png"
-        name="Mr. Whiskerson"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
-      />
-      <Contact
-        img="./images/fluffykins.png"
-        name="Fluffykins"
-        phone="(212) 555-2345"
-        email="fluff@me.com"
-      />
-      <Contact
-        img="./images/felix.png"
-        name="Felix"
-        phone="(212) 555-4567"
-        email="thecat@hotmail.com"
-      />
-      <Contact
-        img="./images/pumpkin.png"
-        name="Pumpkin"
-        phone="(0800) CAT KING"
-        email="pumpkin@scrimba.com"
-      />
-    </div>
-  );
+export default function App() {
+    return (
+        <div>
+            <Joke 
+                setup="I got my daughter a fridge for her birthday." 
+                punchline="I can't wait to see her face light up when she opens it." 
+            />
+            <Joke 
+                setup="How did the hacker escape the police?" 
+                punchline="He just ransomware!" 
+            />
+            <Joke 
+                setup="Why don't pirates travel on mountain roads?" 
+                punchline="Scurvy." 
+            />
+            <Joke 
+                setup="Why do bees stay in the hive in the winter?" 
+                punchline="Swarm." 
+            />
+            <Joke 
+                setup="What's the best thing about Switzerland?" 
+                punchline="I don't know, but the flag is a big plus!" 
+            />
+        </div>
+    )
 }
-
-export default App;
-// <div className="contact-card">
-//     <img src="./images/mr-whiskerson.png"/>
-//     <h3>Mr. Whiskerson</h3>
-//     <div className="info-group">
-//         <img src="./images/phone-icon.png" />
-//         <p>(212) 555-1234</p>
-//     </div>
-//     <div className="info-group">
-//         <img src="./images/mail-icon.png" />
-//         <p>mr.whiskaz@catnap.meow</p>
-//     </div>
-// </div>
-
-// <div className="contact-card">
-//     <img src="./images/fluffykins.png"/>
-//     <h3>Fluffykins</h3>
-//     <div className="info-group">
-//         <img src="./images/phone-icon.png" />
-//         <p>(212) 555-2345</p>
-//     </div>
-//     <div className="info-group">
-//         <img src="./images/mail-icon.png" />
-//         <p>fluff@me.com</p>
-//     </div>
-// </div>
-
-// <div className="contact-card">
-//     <img src="./images/felix.png"/>
-//     <h3>Felix</h3>
-//     <div className="info-group">
-//         <img src="./images/phone-icon.png" />
-//         <p>(212) 555-4567</p>
-//     </div>
-//     <div className="info-group">
-//         <img src="./images/mail-icon.png" />
-//         <p>thecat@hotmail.com</p>
-//     </div>
-// </div>
-
-// <div className="contact-card">
-//     <img src="./images/pumpkin.png"/>
-//     <h3>Pumpkin</h3>
-//     <div className="info-group">
-//         <img src="./images/phone-icon.png" />
-//         <p>(0800) CAT KING</p>
-//     </div>
-//     <div className="info-group">
-//         <img src="./images/mail-icon.png" />
-//         <p>pumpkin@scrimba.com</p>
-//     </div>
-// </div>
